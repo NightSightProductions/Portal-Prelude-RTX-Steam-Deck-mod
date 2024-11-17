@@ -1,0 +1,25 @@
+[Built for SteamOS 3.6]
+
+ Instructions:
+  1. Add these launch commands to Portal Prelude RTX properties: -nogamepadui -windowed
+  2. Drag and drop contents of dxvk-patch into .trex folder in Portal Prelude RTX bin
+  3. Drag and drop one of the rtx.conf presets into Portal Prelude RTX directory, make sure to replace existing rtx.conf
+  4. Set GPU clock speeds to 1600mhz and use Proton 9 for a smoother experience
+
+FSR 3.1 can be toggled through ALT + X and changing upscaler to DLSS
+
+ Recommended resolutions and fps limits for presets:
+  1280x800 or 1600x900 (Recommend FSR Performance with 900p)
+
+  Low: 60 (FSR Ultra Performance)
+  Medium: 40 (FSR Performance)
+  High: 30 (FSR Quality)
+
+Warning: While in ALT + X dev menu, do not go to the remix graphics menu, this will revert some changes and reduce performance (Only if using TAA-U or NIS, Does not affect FSR)
+
+If you need support, you can join our discord through the mod site
+
+Special thanks to the Optiscaler team for helping us get FSR 3.1 working, you can find their GitHub here: https://github.com/cdozdil/OptiScaler
+
+
+
